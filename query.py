@@ -3,8 +3,6 @@ import pandas as pd
 # db_file = '/Users/katarinac/Desktop/SheHacks/db.csv'
 # store_file = '/Users/katarinac/Desktop/SheHacks/tops.csv'
 
-# Haochen this is for u i love u
-
 db_file = 'db.csv'
 store_file = 'tops.csv'
 
