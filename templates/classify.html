@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recommendation Landing Page</title>
+</head>
+<body>
+    <h3>You can do better, but we're here to help!</h3>
+    <p><i>{{processed_text}}</i> only has a rating of {{rating}} out of 5, which means we can do better for Animals, People, and our Planet. </p> <!--route to results app-->
+    <p>Let's run your item through our recommendation engine...</p>
+    <form action = "/results/" method = "get">
+        <button name = "run" type = "submit">Run!!</button> </br>
+    </form> </br>
+    <form action = "/" method = "post">
+        <button name = "return" type = "submit">Homepage</button>
+    </form>
+</body>
+</html>
