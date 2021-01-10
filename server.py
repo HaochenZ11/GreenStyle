@@ -41,7 +41,7 @@ def results():
     global filepath
     pred = classify_image(filepath)
     item = classes[pred]
-    recs = give_rec(item, 3)
+    recs = give_rec(item, 2)
 
     store1 = recs[0][0]
     name1 = recs[0][1]
